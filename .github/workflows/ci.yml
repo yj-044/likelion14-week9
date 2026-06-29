@@ -6,6 +6,7 @@ on:
     branches: ["main"]
   push:
     branches: ["main"]
+  workflow_dispatch:
 
 # 같은 브랜치에서 중복 실행되면 이전 빌드 취소(리소스 절약/레이스 방지)
 concurrency:
